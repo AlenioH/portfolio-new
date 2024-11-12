@@ -1,33 +1,30 @@
 {
     "experiences": [
         {
-            "title": "Software Engineer",
-            "subtitle": "XYZ Ltd",
+            "title": "Frontend Developer",
+            "subtitle": "Geizhals.at",
             "workType": "Full-time",
             "workDescription": [
-                "Integrated **2** new product.",
-                "Worked on adding **def** to **bcd**. Improved speed by 50%."
+                "At Geizhals, a leading Austrian and German price comparison platform, I collaborated closely within a 5-person development team to both launch new projects from scratch and refactor legacy code using modern frameworks. I implemented dark mode, established an automated testing suite with Cypress, and rebuilt parts of the app with React, Svelte, and SvelteKit. Additionally, I contributed to developing the mobile app with Flutter, ensuring a seamless user experience across devices."
             ],
-            "dateText": "06/20XX – Present"
+            "dateText": "10/2020 – 09/2024"
         },
         {
-            "title": "Software Engineer",
-            "subtitle": "XYZ Ltd",
-            "workType": "Internship",
+            "title": "Full Stack Developer",
+            "subtitle": "WoMentor",
+            "workType": "Freelancer",
             "workDescription": [
-                "Worked on abc."
+                "Led the development of a mobile-first app using Next.js, designed a user-friendly UI from client wireframes, built a secure backend with PostgreSQL, implemented authentication, and created a matching algorithm for mentor-mentee pairing, also managed deployment and maintenance to ensure ongoing stability and mission alignment."
             ],
-            "dateText": "01/20XX – 05/20XX"
+            "dateText": "07/2020 – 12/2021"
         },
         {
-            "title": "App Developer",
-            "subtitle": "ABC Pvt Ltd",
-            "workType": "Freelance",
+            "title": "Web Development Bootcamp Student",
+            "subtitle": "UpLeveled",
             "workDescription": [
-                "Developed the official apps for the startup for both Android and iOS using hybrid framework.",
-                "Done bcd work."
+                "Developed multiple smaller and two larger ones: an e-commerce shop and a final project, eco challenge app."
             ],
-            "dateText": "09/20XX – 01/20YY"
+            "dateText": "05/2020 – 07/2020"
         }
     ]
 }

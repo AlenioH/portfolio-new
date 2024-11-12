@@ -116,10 +116,6 @@ It has 2 keys, *logo* and *sections*.
             "href": "/skills"
         },
         {
-            "title": "Education",
-            "href": "/education"
-        },
-        {
             "title": "Experience",
             "href": "/experience"
         },
@@ -162,11 +158,6 @@ It has 2 keys, *logo* and *sections*.
             "component": "Skills",
             "path": "/skills",
             "headerTitle": "Skills"
-        },
-        {
-            "component": "Education",
-            "path": "/education",
-            "headerTitle": "Education"
         },
         {
             "component": "Experience",
@@ -308,43 +299,7 @@ It has 2 keys, *logo* and *sections*.
 
 - many pre existing skill logos are available inside `public/images/skills`.
 
-### (6) Education Section
-
-- open `public/profile/education.json`
-
-```
-{
-    "education":[
-        {
-            "title": "Jun 20XX - Jun 20YY",
-            "cardTitle": "B.Tech, Computer Science",
-            "cardSubtitle":"XYZ University, City",
-            "cardDetailedText": "CGPA - 9.5",
-            "icon" : {
-                "src": "images/education/lorem-ipsum.png"
-            }
-        },
-        {
-            "title": "Apr 20XX",
-            "cardTitle": "High School",
-            "cardSubtitle":"ABC School, City",
-            "cardDetailedText": "Marks - 95%"
-        }
-    ]
-}
-```
-
-| key | Description |
-| ----------- | ----------- |
-| education | array containing education history of a person | 
-| education.title | date range during which this education was pursued or passing date |
-| education.cardTitle | degree or course name |
-| education.cardSubtitle | school or institute name |
-| education.cardDetailedText | extra info such as marks or cgpa |
-| education.icon | icon shown on the timeline. `optional` field|
-| education.icon.src | path to icon |
-
-### (7) Experience Section
+### (6) Experience Section
 
 - open `public/profile/experiences.json`
 
@@ -393,7 +348,7 @@ It has 2 keys, *logo* and *sections*.
 | experiences.workDescription | string array to highlight specific points related to that work experiece. `markdown` supported |
 | experiences.dateText | date range text during which particular work experience was pursued. |
 
-### (8) Projects Section
+### (7) Projects Section
 
 - open `public/profile/projects.json`
 
@@ -471,7 +426,7 @@ It has 2 keys, *logo* and *sections*.
 | projects.links.href | actual link to be redirected to on click of the button |
 | projects.tags | string array containing tags related to projects. `optional` field | 
 
-### (9) Resume Section
+### (8) Resume Section
 
 - It is a clickable link which opens the link provided (generally drive link of resume file) in the navbar.json under Resume.
 
@@ -560,4 +515,3 @@ If you find a bug, feel free to [open an issue](https://github.com/mayankagarwal
 ## License 📄
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-

@@ -19,7 +19,7 @@ const styles = {
   introImageContainer: {
     margin: 10,
     justifyContent: 'center',
-    alignItems: 'center',
+    alignItems: 'flex-start',
     display: 'flex',
   },
 };
@@ -56,7 +56,7 @@ function About(props) {
                     {parseIntro(data.about)}
                   </Col>
                   <Col style={styles.introImageContainer}>
-                    <img src={data?.imageSource} alt="profile" />
+                    <img className="about-img" src={data?.imageSource} alt="profile" />
                   </Col>
                 </Row>
               </Fade>
