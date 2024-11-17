@@ -1,3 +1,43 @@
 {
-    "projects" : []
+    "projects" : [
+        {
+            "image" : "images/projects/random-color-generator.png",
+            "title": "Random color generator",
+            "bodyText": "A little CLI app that logs out a random color but also accepts 2 optional arguments color and luminosity, built with Node.js",
+            "links": [
+                {
+                    "text": "GitHub",
+                    "href": "https://github.com/AlenioH/random-color-generator"
+                },
+                {
+                    "text": "Replit",
+                    "href": "https://replit.com/@AlenioH/random-color-generator"
+                }
+            ],
+            "tags" : [
+                "JavaScript",
+                "Node.js"
+            ]
+        },
+        {
+            "image" : "images/projects/todo-react.png",
+            "title": "React Todo App",
+            "bodyText": "A simple to-do list application built with React, providing features like adding, editing, and filtering tasks. Utilizes Emotion for styling and is fully responsive.",
+            "links": [
+                {
+                    "text": "GitHub",
+                    "href": "https://github.com/AlenioH/react-todo-list"
+                },
+                {
+                    "text": "Live",
+                    "href": "https://focused-franklin-cf17dc.netlify.app/"
+                }
+            ],
+            "tags" : [
+                "JavaScript",
+                "React",
+                "CSS"
+            ]
+        }
+    ]
 }
