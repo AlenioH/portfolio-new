@@ -38,6 +38,26 @@
                 "React",
                 "CSS"
             ]
+        },
+        {
+            "image" : "images/projects/wordle.png",
+            "title": "React Wordle Wannabe App",
+            "bodyText": "A fun and interactive Wordle-inspired game built with React, where players guess a random word with feedback on letter positions.",
+            "links": [
+                {
+                    "text": "GitHub",
+                    "href": "https://github.com/AlenioH/wordle-wannabe"
+                },
+                {
+                    "text": "Live",
+                    "href": "https://scintillating-froyo-faa3f7.netlify.app/"
+                }
+            ],
+            "tags" : [
+                "JavaScript",
+                "React",
+                "CSS"
+            ]
         }
     ]
 }
