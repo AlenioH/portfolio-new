@@ -58,6 +58,29 @@
                 "React",
                 "CSS"
             ]
+        },
+        {
+            "image" : "images/projects/ecommerce.png",
+            "title": "Next.js E-commerce Store",
+            "bodyText": "A fun and interactive Wordle-inspired game built with React, where players guess a random word with feedback on letter positions.",
+            "links": [
+                {
+                    "text": "GitHub",
+                    "href": "https://github.com/AlenioH/next.js-ecommerce-store"
+                },
+                {
+                    "text": "Live",
+                    "href": "https://bist-du-teppich.herokuapp.com/"
+                }
+            ],
+            "tags" : [
+                "JavaScript",
+                "Typescript",
+                "Next.js",
+                "CSS",
+                "PostgresQL",
+                "Cypress"
+            ]
         }
     ]
 }
