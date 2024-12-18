@@ -3,35 +3,28 @@
         {
             "title": "Full Stack Developer",
             "subtitle": "Self-employed",
-            "workDescription": [
-                "Embarking on a self-employment journey as a Full Stack Developer, I am dedicated to delivering end-to-end web solutions for diverse client needs. With expertise in both front-end and back-end technologies, I design and implement user-centric interfaces, robust server-side applications, and scalable databases."
-            ],
+            "workDescription": "Embarking on a self-employment journey as a Full Stack Developer, I am dedicated to delivering end-to-end web solutions for diverse client needs. With expertise in both front-end and back-end technologies, I design and implement user-centric interfaces, robust server-side applications, and scalable databases.",
             "dateText": "11/2024 – present"
         },
         {
             "title": "Frontend Developer",
             "subtitle": "Geizhals.at",
             "workType": "Full-time",
-            "workDescription": [
-                "At Geizhals, a leading Austrian and German price comparison platform, I collaborated closely within a 5-person development team to both launch new projects from scratch and refactor legacy code using modern frameworks. I implemented dark mode, established an automated testing suite with Cypress, and rebuilt parts of the app with React, Svelte, and SvelteKit. Additionally, I contributed to developing the mobile app with Flutter, ensuring a seamless user experience across devices."
-            ],
+            "workDescription": "At Geizhals, a leading Austrian and German price comparison platform, I collaborated closely within a 5-person development team to both launch new projects from scratch and refactor legacy code using modern frameworks. I implemented dark mode, established an automated testing suite with Cypress, and rebuilt parts of the app with React, Svelte, and SvelteKit. Additionally, I contributed to developing the mobile app with Flutter, ensuring a seamless user experience across devices.",
             "dateText": "10/2020 – 09/2024"
         },
         {
             "title": "Full Stack Developer",
             "subtitle": "WoMentor",
             "workType": "Freelancer",
-            "workDescription": [
-                "Led the development of a mobile-first app using Next.js, designed a user-friendly UI from client wireframes, built a secure backend with PostgreSQL, implemented authentication, and created a matching algorithm for mentor-mentee pairing, also managed deployment and maintenance to ensure ongoing stability and mission alignment."
-            ],
+            "workDescription":
+                "Led the development of a mobile-first app using Next.js, designed a user-friendly UI from client wireframes, built a secure backend with PostgreSQL, implemented authentication, and created a matching algorithm for mentor-mentee pairing, also managed deployment and maintenance to ensure ongoing stability and mission alignment.",
             "dateText": "07/2020 – 12/2021"
         },
         {
             "title": "Web Development Bootcamp Student",
             "subtitle": "UpLeveled",
-            "workDescription": [
-                "Developed multiple smaller projects and two larger ones: an e-commerce shop and a final project, eco challenge app."
-            ],
+            "workDescription": "Developed multiple smaller projects and two larger ones: an e-commerce shop and a final project, eco challenge app.",
             "dateText": "05/2020 – 07/2020"
         }
     ]
