@@ -1,6 +1,83 @@
 {
     "projects" : [
         {
+            "image" : "images/projects/placeholder.jpg",
+            "title": "Reusable Portfolio App",
+            "bodyText": "A responsive, customizable portfolio app built with SvelteKit and Strapi, featuring dynamic content management and multiple color schemes.",
+            "links": [
+                {
+                    "text": "GitHub",
+                    "href": "https://github.com/AlenioH/cms-portfolio"
+                }
+            ],
+            "tags" : [
+                "In Progress",
+                "SveltKit",
+                "Strapi",
+                "CSS"
+            ]
+        },
+        {
+            "image" : "images/projects/anastas.png",
+            "title": "Personal web page",
+            "bodyText": "A mobile-first web app featuring a landing page, appointment booking tool and payment.",
+            "links": [
+                {
+                    "text": "GitHub",
+                    "href": "https://github.com/AlenioH/anastas-app"
+                }
+            ],
+            "tags" : [
+                "In Progress",
+                "Next.js",
+                "PostgresQL",
+                "Tailwind"
+            ]
+        },
+        {
+            "image" : "images/projects/ecommerce.png",
+            "title": "Next.js E-commerce Store",
+            "bodyText": "A fun and interactive Wordle-inspired game built with React, where players guess a random word with feedback on letter positions.",
+            "links": [
+                {
+                    "text": "GitHub",
+                    "href": "https://github.com/AlenioH/next.js-ecommerce-store"
+                },
+                {
+                    "text": "Live",
+                    "href": "https://bist-du-teppich.herokuapp.com/"
+                }
+            ],
+            "tags" : [
+                "JavaScript",
+                "Typescript",
+                "Next.js",
+                "CSS",
+                "PostgresQL",
+                "Cypress"
+            ]
+        },
+        {
+            "image" : "images/projects/wordle.png",
+            "title": "React Wordle Wannabe App",
+            "bodyText": "A fun and interactive Wordle-inspired game built with React, where players guess a random word with feedback on letter positions.",
+            "links": [
+                {
+                    "text": "GitHub",
+                    "href": "https://github.com/AlenioH/wordle-wannabe"
+                },
+                {
+                    "text": "Live",
+                    "href": "https://scintillating-froyo-faa3f7.netlify.app/"
+                }
+            ],
+            "tags" : [
+                "JavaScript",
+                "React",
+                "CSS"
+            ]
+        },
+        {
             "image" : "images/projects/random-color-generator.png",
             "title": "Random color generator",
             "bodyText": "A little CLI app that logs out a random color but also accepts 2 optional arguments color and luminosity, built with Node.js",
@@ -37,49 +114,6 @@
                 "JavaScript",
                 "React",
                 "CSS"
-            ]
-        },
-        {
-            "image" : "images/projects/wordle.png",
-            "title": "React Wordle Wannabe App",
-            "bodyText": "A fun and interactive Wordle-inspired game built with React, where players guess a random word with feedback on letter positions.",
-            "links": [
-                {
-                    "text": "GitHub",
-                    "href": "https://github.com/AlenioH/wordle-wannabe"
-                },
-                {
-                    "text": "Live",
-                    "href": "https://scintillating-froyo-faa3f7.netlify.app/"
-                }
-            ],
-            "tags" : [
-                "JavaScript",
-                "React",
-                "CSS"
-            ]
-        },
-        {
-            "image" : "images/projects/ecommerce.png",
-            "title": "Next.js E-commerce Store",
-            "bodyText": "A fun and interactive Wordle-inspired game built with React, where players guess a random word with feedback on letter positions.",
-            "links": [
-                {
-                    "text": "GitHub",
-                    "href": "https://github.com/AlenioH/next.js-ecommerce-store"
-                },
-                {
-                    "text": "Live",
-                    "href": "https://bist-du-teppich.herokuapp.com/"
-                }
-            ],
-            "tags" : [
-                "JavaScript",
-                "Typescript",
-                "Next.js",
-                "CSS",
-                "PostgresQL",
-                "Cypress"
             ]
         }
     ]
