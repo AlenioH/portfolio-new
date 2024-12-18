@@ -28,7 +28,7 @@ const Projects = (props) => {
       method: 'GET',
     })
       .then((res) => res.json())
-      .then((res) => setData(res))
+      .then((res) => { setData(res); setShowMore(!(res.projects.length > 6)); })
       .catch((err) => err);
   }, []);
   const numberOfItems = showMore && data ? data.length : 6;
