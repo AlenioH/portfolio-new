@@ -1,6 +1,10 @@
 {
     "social": [
         {
+            "network" : "instagram",
+            "href": "https://www.instagram.com/alenio.io/"
+        },
+        {
             "network" : "linkedin",
             "href": "https://www.linkedin.com/in/alena-hasslacher/"
         },

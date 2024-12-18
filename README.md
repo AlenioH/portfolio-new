@@ -122,11 +122,6 @@ It has 2 keys, *logo* and *sections*.
         {
             "title": "Projects",
             "href": "/projects"
-        },
-        {
-            "title": "Resume",
-            "href": "https://drive.google.com/file/d/13kaPsdMNDsM4LV9g7m5-E5PTildp-yYf/view?usp=sharing",
-            "type": "link"
         }
     ]
 }
@@ -425,11 +420,6 @@ It has 2 keys, *logo* and *sections*.
 | projects.links.text | title of link to display |
 | projects.links.href | actual link to be redirected to on click of the button |
 | projects.tags | string array containing tags related to projects. `optional` field | 
-
-### (8) Resume Section
-
-- It is a clickable link which opens the link provided (generally drive link of resume file) in the navbar.json under Resume.
-
 
 ### Step 2 - STYLES
 

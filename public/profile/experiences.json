@@ -1,6 +1,14 @@
 {
     "experiences": [
         {
+            "title": "Full Stack Developer",
+            "subtitle": "Self-employed",
+            "workDescription": [
+                "Embarking on a self-employment journey as a Full Stack Developer, I am dedicated to delivering end-to-end web solutions for diverse client needs. With expertise in both front-end and back-end technologies, I design and implement user-centric interfaces, robust server-side applications, and scalable databases."
+            ],
+            "dateText": "11/2024 – present"
+        },
+        {
             "title": "Frontend Developer",
             "subtitle": "Geizhals.at",
             "workType": "Full-time",
@@ -22,7 +30,7 @@
             "title": "Web Development Bootcamp Student",
             "subtitle": "UpLeveled",
             "workDescription": [
-                "Developed multiple smaller and two larger ones: an e-commerce shop and a final project, eco challenge app."
+                "Developed multiple smaller projects and two larger ones: an e-commerce shop and a final project, eco challenge app."
             ],
             "dateText": "05/2020 – 07/2020"
         }
