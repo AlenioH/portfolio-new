@@ -90,7 +90,10 @@ const ProjectCard = (props) => {
               pill
               bg={theme.bsSecondaryVariant}
               text={theme.bsPrimaryVariant}
-              style={styles.badgeStyle}
+              style={{
+                ...styles.badgeStyle,
+                border: tag === 'In Progress' ? '2px solid red' : 'none',
+              }}
             >
               {tag}
             </Badge>
