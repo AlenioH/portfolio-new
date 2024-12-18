@@ -1,10 +1,10 @@
 import React, { useEffect, useState, useContext } from 'react';
-import { Timeline, TimelineItem } from 'vertical-timeline-component-for-react';
+import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
 import { Container } from 'react-bootstrap';
 import ReactMarkdown from 'react-markdown';
 import PropTypes from 'prop-types';
 import { ThemeContext } from 'styled-components';
-import {Fade} from 'react-awesome-reveal';
+import { Fade } from 'react-awesome-reveal';
 import Header from './Header';
 import endpoints from '../constants/endpoints';
 import FallbackSpinner from './FallbackSpinner';
@@ -52,36 +52,33 @@ function Experience(props) {
         ? (
           <div className="section-content-container">
             <Container>
-              <Timeline
-                lineColor={theme.timelineLineColor}
-              >
+              <VerticalTimeline>
                 {data.map((item) => (
-                  <Fade>
-                    <TimelineItem
-                      key={item.title + item.dateText}
-                      dateText={item.dateText}
-                      dateInnerStyle={{ background: theme.accentColor }}
+                  <Fade key={item.title + item.dateText}>
+                    <VerticalTimelineElement
+                      date={item.dateText}
+                      dateClassName="vertical-timeline-date"
+                      iconStyle={{ background: theme.accentColor, color: '#fff' }}
+                      contentStyle={{ color: theme.color }}
+                      contentArrowStyle={{ borderRight: `7px solid ${theme.accentColor}` }}
                       style={styles.itemStyle}
-                      bodyContainerStyle={{ color: theme.color }}
                     >
-                      <h2 className="item-title">
-                        {item.title}
-                      </h2>
+                      <h2 className="item-title">{item.title}</h2>
                       <div style={styles.subtitleContainerStyle}>
                         <h4 style={{ ...styles.subtitleStyle, color: theme.accentColor }}>
                           {item.subtitle}
                         </h4>
                         {item.workType && (
-                        <h5 style={styles.inlineChild}>
-                    &nbsp;·
-                          {' '}
-                          {item.workType}
-                        </h5>
+                          <h5 style={styles.inlineChild}>
+                            &nbsp;·
+                            {item.workType}
+                          </h5>
                         )}
                       </div>
                       <ul style={styles.ulStyle}>
-                        {item.workDescription.map((point) => (
-                          <div key={point}>
+                        {item.workDescription.map((point, index) => (
+                          // eslint-disable-next-line react/no-array-index-key
+                          <div key={index}>
                             <li>
                               <ReactMarkdown
                                 children={point}
@@ -94,13 +91,13 @@ function Experience(props) {
                           </div>
                         ))}
                       </ul>
-                    </TimelineItem>
+                    </VerticalTimelineElement>
                   </Fade>
                 ))}
-              </Timeline>
+              </VerticalTimeline>
             </Container>
           </div>
-        ) : <FallbackSpinner /> }
+        ) : <FallbackSpinner />}
     </>
   );
 }

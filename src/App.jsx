@@ -3,15 +3,14 @@ import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { BrowserRouter } from 'react-router-dom';
 import { ThemeProvider } from 'styled-components';
-import useDarkMode from 'react-use-dark-mode';
+import useDarkMode from './hooks/useDarkMode';
 import AppContext from './AppContext';
 import MainApp from './MainApp';
 import GlobalStyles from './theme/GlobalStyles';
 import { lightTheme, darkTheme } from './theme/themes';
 
 function App() {
-  window.matchMedia = null;
-  const darkMode = useDarkMode(false);
+  const darkMode = useDarkMode(false); // use the hook, it returns value and toggle function
 
   return (
     <AppContext.Provider value={{ darkMode }}>
