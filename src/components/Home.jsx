@@ -8,6 +8,7 @@ import FallbackSpinner from './FallbackSpinner';
 const styles = {
   nameStyle: {
     fontSize: '5em',
+    textShadow: '0px 0px 10px pink',
   },
   inlineChild: {
     display: 'inline-block',

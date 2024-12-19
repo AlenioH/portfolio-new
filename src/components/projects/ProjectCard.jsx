@@ -20,6 +20,7 @@ const styles = {
     display: 'grid',
     gridTemplateRows: '300px 25% 3.5rem auto',
     gap: '0.5rem',
+    boxShadow: '0 0 5px lightgray',
   },
   cardTitleStyle: {
     fontSize: 24,

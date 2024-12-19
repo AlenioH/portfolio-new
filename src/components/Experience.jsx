@@ -11,6 +11,10 @@ import '../css/experience.css';
 import 'react-vertical-timeline-component/style.min.css';
 
 const styles = {
+  containerStyle: {
+    borderRadius: '5px',
+    boxShadow: '0 0 10px lightgray',
+  },
   ulStyle: {
     listStylePosition: 'outside',
     paddingLeft: 20,
@@ -50,7 +54,7 @@ function Experience(props) {
 
       {data
         ? (
-          <div className="section-content-container" style={{ background: theme.timelineColor }}>
+          <div className="section-content-container" style={{ ...styles.containerStyle, background: theme.timelineColor }}>
             <Container>
               <VerticalTimeline lineColor={theme.color} className="experience">
                 {data.map((item) => (

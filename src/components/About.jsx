@@ -22,6 +22,10 @@ const styles = {
     alignItems: 'flex-start',
     display: 'flex',
   },
+  imageStyles: {
+    borderRadius: '5px',
+    boxShadow: '0px 0px 5px #00000085',
+  },
 };
 
 function About(props) {
@@ -56,7 +60,7 @@ function About(props) {
                     {parseIntro(data.about)}
                   </Col>
                   <Col style={styles.introImageContainer}>
-                    <img className="about-img" src={data?.imageSource} alt="profile" />
+                    <img className="about-img" src={data?.imageSource} alt="profile" style={styles.imageStyles} />
                   </Col>
                 </Row>
               </Fade>

@@ -1,15 +1,15 @@
 export const lightTheme = {
   background: '#fff',
   color: '#121212',
-  accentColor: '#3D84C6',
+  accentColor: '#8a2be2',
   chronoTheme: {
     cardBgColor: 'white',
     cardForeColor: 'black',
     titleColor: 'white',
   },
-  timelineColor: '#ccc',
+  timelineColor: 'rgb(237 174 241 / 23%)',
   cardBackground: '#fff',
-  cardFooterBackground: '#f7f7f7',
+  cardFooterBackground: 'rgb(237 174 241 / 23%)',
   cardBorderColor: '#00000020',
   navbarTheme: {
     linkColor: '#dedede',
@@ -24,7 +24,7 @@ export const lightTheme = {
 export const darkTheme = {
   background: '#121212',
   color: '#eee',
-  accentColor: '#3D84C6',
+  accentColor: '#8a2be2',
   chronoTheme: {
     cardBgColor: '#1B1B1B',
     cardForeColor: '#eee',

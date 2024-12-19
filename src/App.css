@@ -10,6 +10,9 @@
 
 .navbar-custom {
   font-size:large;
+ background: linear-gradient(135deg, #d63384, #8a2be2) !important;  /* pink to deep purple */
+  /* For dark mode */
+  background: linear-gradient(135deg, #d63384, #4b0082) !important;
 }
 
 .navbar__link {
@@ -103,6 +106,10 @@ section.timeline-card-content div.card-description > p {
 .social {
   position: relative;
   margin-top: 60px;
+}
+
+.social-svg {
+  border: 4px solid #8a2be26b;
 }
 
 
