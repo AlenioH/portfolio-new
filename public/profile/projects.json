@@ -37,7 +37,7 @@
         {
             "image" : "images/projects/ecommerce.png",
             "title": "Next.js E-commerce Store",
-            "bodyText": "A fun and interactive Wordle-inspired game built with React, where players guess a random word with feedback on letter positions.",
+            "bodyText": "A mock online shop of interior design items, built with Next.js and PostgresQL.",
             "links": [
                 {
                     "text": "GitHub",
